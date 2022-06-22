@@ -1,9 +1,14 @@
 {
-  "scripts":{"start":"node start.js"},
+  "scripts": {
+    "start": "node start.js"
+  },
   "name": "testvar",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/zachkohl/testvar.git",
   "author": "zachkohl <zach.kohl@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
 }
